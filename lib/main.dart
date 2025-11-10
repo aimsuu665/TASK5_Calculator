@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project1/pavlova.dart';
+import 'calculator.dart'; // ✅ Correct import
 
 void main() {
   runApp(const MyApp());
@@ -11,12 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
+      title: 'Flutter Calculator',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Pavlova(),
+      home: const Calculator(),
     );
   }
 }
