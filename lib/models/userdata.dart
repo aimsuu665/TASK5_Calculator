@@ -54,14 +54,14 @@ class Userdata {
     Friend(img: 'assets/Gilgre1.png', name: 'Gilgre'),
     Friend(img: 'assets/Bayona1.png', name: 'Bayonax'),
     Friend(img: 'assets/Dexter1.png', name: 'Dextoy'),
-    Friend(img: 'assets/prof6.png', name: 'Unknown'),
+    Friend(img: 'assets/Oquindo1.png', name: 'John David'),
   ];
 
   List<Usercomment> commentList = [
     Usercomment(
       commenterImg: 'assets/prof2.jpg',
       commenterName: 'Earl',
-      commenterTime: '2 hrs',
+      commenterTime: '3hrs',
       commenterContent: 'nice photo',
     ),
     
@@ -71,7 +71,7 @@ class Userdata {
     name: 'Earl Austine Fructoso',
     email: 'earlaustinefructoso1@gmail.com',
     img: 'assets/Earl1.png',
-    numFollowers: '515m',
+    numFollowers: '515M',
     numPosts: '3',
     numFollowing: '0',
     numFriends: '300',
